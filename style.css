@@ -20,30 +20,48 @@ body{
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    background-image: url(images/Background_image.jpeg)
+    background-image: url(images/Background_image.jpeg);
+    position: relative;
 }
-
+#img_score {
+    height: 10vh;
+    width: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 2vw;
+    margin-top: 15vh;
+}
+#img_hearts {
+    height: 5vh;
+    width: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 2vw;
+    margin-top: 15vh;
+}
 #h2{
-    font-size: 3em;
+    font-size: 3vw;
     margin: 0;
     margin-bottom: 3vh;
 }
 #h1{
     font-family: myFirstFont, sans-serif;
     margin: 0;
-    font-size: 5em;
+    font-size: 5vw;
     color: #FA59D8;
     margin-bottom: 3vh;
 }
 #h3{
     font-family: myFirstFont, sans-serif;
-    font-size: 1em;
+    font-size: 1vw;
     margin: 0;
 }
 .navbar{
     position: fixed;
     width: 100%;
-    height: 80px;
+    height: 10vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -52,9 +70,9 @@ body{
     z-index: 1000;
     margin: 0 auto;
 }
-.navbar #logo {
+#logo {
     margin-left: 2vw;
-    height: 40px;
+    height: 5vh;
     width: auto;
     border: none;
 }
@@ -66,25 +84,26 @@ body{
     cursor: pointer;
 }
 #login{
-    height: 40px;
+    height: 5vh;
     width: auto;
 }
 #WhoSection{
-    height: 100vh;
-    padding-top: 80px
+    height: 80vh;
+    padding-top: 20vh;
 }
 #WhoSection h1{
     font-family: myFirstFont, sans-serif;
     margin: 0;
-    font-size: 3em;
-    margin-left: 10%;
+    font-size: 3vw;
     color: white;
+    margin-bottom: 7vh;
+    text-align: center;
 }
 #WhoSection p{
     margin: 0;
-    font-size: 1.5em;
+    font-size: 1.5vw;
     color: white;
-    width: 40%;
+    width: 40vw;
 }
 .whoContainer{
     padding-top: 0px;
@@ -92,69 +111,108 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 7%;
+    gap: 7vw;
     margin-left: 0;
     height: auto;
     box-sizing: border-box;
 }
 .whoContainer img{
-    width: 40%;
+    width: 40vw;
     height: auto;
 }
 #AboutSection{
-    height: 100vh;
-    padding-top: 70px;
+    height: 80vh;
+    padding-top: 20vh;
 }
 #AboutSection h1{
-    font-size: 3em;
-    margin-left: 10%;
-    margin-top: 5%;
-}
-#AboutSection p{
-    width: 40%;
-    padding: 20px;
-    font-size: 1.1em;
+    font-family: myFirstFont, sans-serif;
     margin: 0;
-}
-#TracksSection{
-    height: 100vh;
-    padding-top: 70px;
+    font-size: 3vw;
+    color: white;
+    margin-bottom: 7vh;
     text-align: center;
 }
+.aboutContainer p{
+    margin: 0;
+    font-size: 1.5vw;
+    color: white;
+    width: 40vw;
+}
+.aboutContainer{
+    padding-top: 0px;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7vw;
+    margin-left: 0;
+    height: auto;
+    box-sizing: border-box;
+}
+.aboutContainer img{
+    width: 40vw;
+    height: auto;
+}
+#TracksSection{
+    height: 80vh;
+    padding-top: 20vh;
+    margin-bottom: 10vh;
+}
 #TracksSection h2{
-    font-size: 2em;
-    margin-bottom: 20px;
+    font-family: myFirstFont, sans-serif;
+    margin: 0;
+    font-size: 3vw;
+    color: white;
+    margin-bottom: 10vh;
+    text-align: center;
 }
 .tracks-container {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 5vw;
 }
 .track {
-    border: 2px solid #105f41;
-    padding: 20px;
-    width: 250px;
-    background-color: #ffffff;
-    border-radius: 8px;
+    padding: 2vw;
+    width: 20vw;
+    border-radius: 30px;
+    padding-bottom: 1vw;
+}
+#first_track{
+    background-color: #FF5C5C;
+}
+#second_track{
+    background-color: #00C49C;
+}
+#third_track{
+    background-color: #F6DB6E;
 }
 .track h3 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 0%;
+    font-size: 2vw;
+    color: white;
+    font-weight: 700;
 }
 .track p {
-    font-size: 1em;
-    color: #333333;
+    text-align: center;
+    font-size: 1.3vw;
+    font-weight: 500;
+    color: white;
 }
 #GallerySection{
     overflow: hidden;
     position: relative;
     height: 100vh;
-    padding-top: 70px;
+    padding-top: 20vh;
     text-align: center;
 }
 #GallerySection h2{
-    font-size: 2em;
-    margin-bottom: 40px;
+    font-family: myFirstFont, sans-serif;
+    margin: 0;
+    font-size: 3vw;
+    color: white;
+    margin-bottom: 7vh;
+    text-align: center;
 }
 .slider-container {
     overflow: hidden;
