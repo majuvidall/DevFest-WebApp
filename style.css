@@ -58,6 +58,17 @@ body{
     font-size: 1vw;
     margin: 0;
 }
+#HomePage #login_button{
+    margin-top: 3vh;
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+}
+#HomePage #login{
+    height: 6vh;
+    width: auto;
+}
 .navbar{
     position: fixed;
     width: 100%;
@@ -76,22 +87,16 @@ body{
     width: auto;
     border: none;
 }
-#login_button{
-    margin-right: 2vw;
-    border: none;
-    background: none;
-    padding: 0;
-    cursor: pointer;
-}
-#login{
-    height: 5vh;
-    width: auto;
-}
 #WhoSection{
-    height: 80vh;
-    padding-top: 20vh;
+    height: auto;
+    padding-top: 0vh;
+}
+#purpleTransition{
+    width: 100%;
+    height: auto;
 }
 #WhoSection h1{
+    padding-top: 20vh;
     font-family: myFirstFont, sans-serif;
     margin: 0;
     font-size: 3vw;
@@ -121,7 +126,7 @@ body{
     height: auto;
 }
 #AboutSection{
-    height: 80vh;
+    height: auto;
     padding-top: 20vh;
 }
 #AboutSection h1{
@@ -149,16 +154,22 @@ body{
     height: auto;
     box-sizing: border-box;
 }
-.aboutContainer img{
+#whatIsDevFest{
     width: 40vw;
     height: auto;
 }
-#TracksSection{
-    height: 80vh;
-    padding-top: 20vh;
-    margin-bottom: 10vh;
+#starss{
+    margin-top: 10vh;
+    width: 100%;
+    height: auto;
+    margin-bottom: 5vh;
+}
+
+#TracksSection {
+    padding: 4vh 10vw;
 }
 #TracksSection h2{
+    padding-top: 20vh;
     font-family: myFirstFont, sans-serif;
     margin: 0;
     font-size: 3vw;
@@ -166,39 +177,50 @@ body{
     margin-bottom: 10vh;
     text-align: center;
 }
-.tracks-container {
-    display: flex;
-    justify-content: center;
-    gap: 5vw;
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2vw;
 }
-.track {
-    padding: 2vw;
-    width: 20vw;
+.card {
     border-radius: 30px;
-    padding-bottom: 1vw;
+    padding: 3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100%;
 }
-#first_track{
+.card h3 {
+    font-size: 2vw;
+    margin-bottom: 0vh;
+    margin-top: 0px;
+    color: white;
+}
+.card p {
+    padding-top: 0px;
+    flex-grow: 1;
+    overflow-wrap: break-word;
+    font-size: 1.1vw;
+    color: white;
+}
+#first{
     background-color: #FF5C5C;
 }
-#second_track{
+#second{
     background-color: #19ab8d;
 }
-#third_track{
+#third{
     background-color: #ffd428d5;
 }
-.track h3 {
-    text-align: center;
-    margin-top: 0%;
-    font-size: 2vw;
-    color: white;
-    font-weight: 700;
+#fourth{
+    background-color: #4285F4;    
 }
-.track p {
-    text-align: center;
-    font-size: 1.3vw;
-    font-weight: 500;
-    color: white;
-}
+
+
+
 #GallerySection{
     overflow: hidden;
     position: relative;
@@ -278,4 +300,151 @@ body{
     background-color: rgb(160, 200, 248);
     height: 100vh;
     padding-top: 70px;
+}
+
+
+@media (max-width: 600px){
+    #img_score {
+        width: 20vw;
+        height: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-left: 5vw;
+        margin-top: 13vh;
+    }
+    #img_hearts {
+        width: 20vw;
+        height: auto;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-right: 4vw;
+        margin-top: 13vh;
+    }
+    #h2{
+        font-size: 5vh;
+        margin: 0;
+        margin-bottom: 3vh;
+    }
+    #h1{
+        font-family: myFirstFont, sans-serif;
+        margin: 0;
+        font-size: 5vh;
+        color: #FA59D8;
+        margin-bottom: 3vh;
+    }
+    #h3{
+        font-family: myFirstFont, sans-serif;
+        font-size: 2vw;
+        margin: 0;
+    }
+    .navbar{
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0;
+        background-color: #1129A6;
+        z-index: 1000;
+        margin: 0 auto;
+    }
+    #logo {
+        margin-left: 5vw;
+        width: 15vw;
+        height: auto;
+        border: none;
+    }
+    #HomePage #login_button{
+        border: none;
+        background: none;
+        padding: 0;
+        cursor: pointer;
+    }
+    #HomePage #login{
+        width: 20vw;
+        height: auto;
+    }
+    #WhoSection{
+        height: auto;
+        margin-top: 0px;
+        padding-top: 5vh;
+        margin-bottom: 10vh;
+        padding-bottom: 0px;
+    }
+    #WhoSection h1{
+        font-size: 5vw;
+        margin-bottom: 0%;
+        margin-top: 0;
+        margin-bottom: 1vh;
+    }
+    .whoContainer{
+        padding-top: 0px;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        box-sizing: border-box;
+    }
+    #WhoSection .whoContainer p{
+        width: 70%;
+        padding: 20px;
+        font-size: 0.7em;
+        margin: 0;
+    }
+    #WhoSection .whoContainer img{
+        width: 70%;
+        height: auto;
+    }
+    #AboutSection{
+        height: auto;
+        margin-top: 0px;
+        padding-top: 5vh;
+        margin-bottom: 10vh;
+        padding-bottom: 0px;
+    }
+    #AboutSection h1{
+        font-size: 1em;
+        margin-bottom: 0%;
+        margin-top: 0;
+        margin-bottom: 0vh;
+    }
+    .aboutContainer{
+        padding-top: 0px;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        box-sizing: border-box;
+    }
+    #AboutSection .aboutContainer p{
+        width: 70%;
+        padding: 20px;
+        font-size: 0.7em;
+        margin: 0;
+    }
+    #AboutSection .aboutContainer img{
+        width: 70%;
+        height: auto;
+    }
+
+    #TracksSection{
+        height: auto;
+        margin-top: 0px;
+        padding-top: 5vh;
+        margin-bottom: 0vh;
+        padding-bottom: 0px;
+    }
+    #TracksSection h2{
+        font-size: 1em;
+        margin-bottom: 4vh;
+        margin-top: 0;
+    }
+    .tracks-container{
+
+    }
 }
