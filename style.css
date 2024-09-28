@@ -5,7 +5,7 @@ body{
 }
 @font-face {
     font-family: myFirstFont;
-    src: url(ArcadeNormal-ZDZ.ttf) format('truetype');
+    src: url(NTBrickSans.ttf) format('truetype');
 }
 #overall{
     height: 100vh;
@@ -310,7 +310,7 @@ body{
     margin: 0;
     font-size: 3vw;
     color: white;
-    padding-bottom: 15vh;
+    padding-bottom: 10vh;
     text-align: center;
 }   
 #SponsorsSection {
@@ -322,6 +322,12 @@ body{
 #bricksTransition {
     width: 100%;
     height: auto;
+}
+.logo-container {
+    display: flex; /* Use flexbox to arrange logos in one line */
+    justify-content: center; /* Center logos horizontally */
+    gap: 5vw;
+    padding-bottom: 10vh;
 }
 .logo-container {
     display: flex; /* Use flexbox to arrange logos in one line */
@@ -340,8 +346,23 @@ body{
     transform: scale(1.05); /* Slightly scale up on hover */
 }
 
+.clubs-container {
+    display: flex; /* Use flexbox to arrange logos in one line */
+    justify-content: center; /* Center logos horizontally */
+    gap: 5vw;
+    margin-bottom: 0vh;
+}
 
+.clubs {
+    height: 100px; /* Set a fixed height for logos */
+    width: auto; /* Maintain aspect ratio */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: transform 0.3s; /* Add transition for hover effect */
+}
 
+.clubs:hover {
+    transform: scale(1.05); /* Slightly scale up on hover */
+}
 
 #SpeakersSection{
     background-color: rgb(160, 248, 163);
