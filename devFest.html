@@ -15,11 +15,12 @@
 </head>
 <body>
     <div id="overall">
-        <nav class="navbar">
-            <img id="logo" src="images/Logo2.png" alt="Logo">
-        </nav>
         <div id="HomePage">
-            <img id="img_score" src="images/score.png" alt="score">
+            <a href="https://developers.google.com/community/gdsc" target="_blank">
+                <button id="gdsc-button">
+                    <img id="img_score" src="images/Logo.png" alt="Logo">
+                </button>
+            </a>
             <img id="img_hearts" src="images/hearts.png" alt="hearts">
             <h2 id="h2">Welcome to</h2>
             <h1 id="h1">DevFest 2024</h1>
@@ -55,6 +56,7 @@
                 <img id="whatIsDevFest" src="images/about_photo.jpeg" alt="about">
             </div>
         </div>
+        <img id="starss" src="images/Stars.png" alt="stars">
         <div id="TracksSection">
             <h2>Our Tracks</h2>
             <div class="card-container">
@@ -195,6 +197,26 @@
             <h2>Coming Soon!</h2>
         </div>
 
+        <div id="SpeakersSection">
+            <h1>Speakers</h1>
+            <!-- <div id="speakers-slides-container">
+                <div class="speakers-slides">
+                    <div id="woody" class="boxes active">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere voluptatibus harum reiciendis nam natus itaque culpa, eaque maiores assumenda consequatur recusandae amet omnis cupiditate numquam perferendis consequuntur repellendus voluptatem dignissimos!</p>
+                    </div>
+                    <div id="gress" class="boxes">
+                        <p>The second text eaque maiores assumenda consequatur recusandae amet omnis cupiditate numquam perferendis consequuntur repellendus voluptatem dignissimos!</p>
+                    </div>
+                    <div id="svekis" class="boxes">
+                        <p>The third text. Facere voluptatibus harum reiciendis nam natus itaque culpa, eaque maiores assumenda consequatur recusandae amet omnis cupiditate numquam perferendis consequuntur repellendus voluptatem dignissimos!</p>
+                    </div>
+                </div>
+                <div class="buttons-gallery">
+                    <span class="next">&#10095</span>
+                    <span class="prev">&#10094</span>
+                </div>
+            </div> -->
+        </div>
 
         <div id="SponsorsSection">
             <img id="bricksTransition" src="images/bricks.jpeg" alt="bricks">
@@ -229,17 +251,46 @@
                 </a>
             </div>
         </div>
-        <!-- 
-        <div id="SpeakersSection">
-            <h1>Speakers</h1>
-        </div>
-        <div id="OrganizersSection">
-            <h1>Our Team</h1>
-        </div>
         <div id="FAQsSection">
-            <h1>Common Questions</h1>
+            <h1>FAQs</h1>
         </div>
-        -->
+        <!-- <div id="OrganizersSection">
+            <h1>Meet the team!</h1>
+        </div> -->
+        <div id="StayInTouch">
+            <h1>Stay in touch!</h1>
+            <div class="contact-container">
+                <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                    <input type="hidden" name="access_key" value="71301a4c-56a1-4e2b-915f-0f7fd7f81562">
+                    <p>Subject:</p>
+                    <input type="text" name="Subject" class="contact-inputs" required>
+                    <p>Message:</p>
+                    <textarea name="Message" class="contact-inputs" required></textarea>
+                    <button id="send" type="submit">
+                        <img id="send-image" src="images/send.png" alt="send">
+                    </button>
+                </form>
+                <div class="contact-right">
+                    <img src="images/Computer.png" alt="computer">
+                </div>
+            </div>
+            <div class="ending">
+                <div class="social-media">
+                    <a href="https://www.linkedin.com/company/usfgdsc/posts/?feedView=all" target="_blank">
+                        <img id="link" src="images/LinkedIn.png" alt="LinkedIn" class="logotypes">
+                    </a>
+                    <a href="https://www.instagram.com/usfgdsc/?hl=en" target="_blank">
+                        <img id="insta" src="images/Insta.png" alt="Instagram" class="logotypes">
+                    </a>
+                    <a href="https://bullsconnect.usf.edu/gdsc/rsvp_boot?id=1968434" target="_blank">
+                        <img id="bulls" src="images/bulls.png" alt="BullsConnect" class="logotypes">
+                    </a>
+                </div>
+                <div class="made">
+                    <p>Made with <img id="end-heart" src="images/heart1.png"> by <img id="end-logo" src="images/white.png"></p>
+                </div>
+            </div>
+        </div>
     </div>
 
     <script src="devFest.js"></script>
