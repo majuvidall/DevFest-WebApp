@@ -14,3 +14,12 @@ document.querySelectorAll('.section').forEach(section => {
         section.classList.toggle('flip');
     });
 });
+
+
+const faqs = document.querySelectorAll(".faq");
+
+faqs.forEach(faq => {
+    faq.addEventListener("click", () => {
+        faq.classList.toggle("active");
+    })
+})
