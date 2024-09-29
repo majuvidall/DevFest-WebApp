@@ -77,6 +77,10 @@ body{
 #login{
     height: 6vh;
     width: auto;
+    transition: transform 0.2s;
+}
+#login:hover{
+    transform: scale(1.2);
 }
 #WhoSection{
     height: auto;
@@ -463,77 +467,98 @@ body{
 }
 
 #SpeakersSection{
+    font-family: myFirstFont, sans-serif;
     background-color: #471B9B;
-    height: 100vh;
+    color: white;
+    height: auto;
+    padding-bottom: 10vh;
     padding-top: 10vh;
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
+}
+
+#SpeakersSection h1, #SpeakersSection h2{
+    font-family: myFirstFont, sans-serif;
+}
+#SpeakersSection pre{
+    margin-top: 0px;
+}
+#SpeakersSection h2{
+    padding-top: 0px;
+    font-size: 2vw;
 }
 #SpeakersSection h1{
-    font-family: myFirstFont, sans-serif;
     margin: 0;
     font-size: 3vw;
-    color: white;
     padding-bottom: 9vh;
     text-align: center;
+    padding: 0;
 }
+
 #speakers-slides-container{
-    background-color: white;
     position: relative;
     width: 40vw;
-    height: 50vh;
-    border: 3px solid #ede6d6;
-    border-radius: 5px;
+    max-width: 50vw;
+    height: 70vh;
     overflow: hidden;
-    box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.2);
 }
-.speakers-slides{
+
+#SpeakersSection .speakers-content{
+    display: flex;
+    align-items: center;
+    align-content: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#SpeakersSection .picture{
+    width: 20vw;
+    height: auto;
+}
+
+#SpeakersSection .arrows{
+    display: flex;
+    width: 25vw;
+    justify-content: space-between;
+    align-items: center;
+}
+.arrows span{
+    font-size: 1.5vw;
+    align-items: center;
+}
+.arrows button{
+    height: 4vw;
+    width: 4vw;
+}
+
+.arrows button img{
+    height: auto;
     width: 100%;
-    height: 100%;
-    position: absolute;
-    overflow: hidden;
-    top: 0;
-    left: 0;
 }
-.speakers-slides .boxes{
-    width: 100%;
-    height: calc(100% - 40px);
-    position: absolute;
-    object-fit: cover;
-    display: block;
-    top: 0;
-    left: 0;
-    transition: opacity 0.5s ease;
+
+#SpeakersSection .speaker-description{
+    font-size: 1vw;
 }
-.speakers-slides .boxes:not(.active){
-    top: 0;
-    left: -100%;
+
+#SpeakersSection .speaker-title{
+    font-size: 1.7vw;
 }
-span.next, span.prev{
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    padding: 15px;
-    color: #eee;
-    font-size: 25px;
-    font-weight: bold;
-    transition: 0.5s;
-    border-radius: 3px;
-    user-select: none;
+
+#SpeakersSection button{
+    background: none;
+    border: none;
+    color: white;
+    font-size: 30px;
+}
+
+#SpeakersSection button:hover{
     cursor: pointer;
-    z-index: 1;
 }
-span.next{
-    right: 10px;
-}
-span.prev{
-    left: 10px;
-}
-span.next:hover, span.prev:hover{
-    background-color: #ede6d6;
-    opacity: 0.8;
-    color: #222;
+
+#SpeakersSection button:active{
+    filter: brightness(50%);
 }
     
 #FAQsSection{
@@ -643,19 +668,28 @@ span.next:hover, span.prev:hover{
     width: 2.4vw;
     height: auto;
 }
+.made{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vh;
+    margin-bottom: 5vh;
+}
 .made p{
     margin-top: 0px;
     color: white;
     font-family: myFirstFont, sans-serif;
-    font-size: 2vw;
+    align-items: center;
+    margin-bottom: 0px;
+    font-size: 1.5vw;
 }
 #end-heart{
-    width: 2vw;
-    height: auto;
+    height: 2vw;
+    width: auto;
 }
 #end-logo{
-    width: 2vw;
-    height: auto;
+    height: 2vw;
+    width: auto;
 }
 
 @media (max-width: 600px){

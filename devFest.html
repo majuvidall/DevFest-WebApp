@@ -10,16 +10,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 
-    <link rel = "icon" type = "image/jpg" href = "images/Logo.jpeg">
+    <link rel = "icon" type = "image/jpg" href = "images/Logo-Cope.jpeg">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="overall">
         <div id="HomePage">
             <a href="https://developers.google.com/community/gdsc" target="_blank">
-                <button id="gdsc-button">
-                    <img id="img_score" src="images/Logo.png" alt="Logo">
-                </button>
+                <img id="img_score" src="images/Logo.png" alt="Logo">
             </a>
             <img id="img_hearts" src="images/hearts.png" alt="hearts">
             <h2 id="h2">Welcome to</h2>
@@ -199,23 +197,19 @@
 
         <div id="SpeakersSection">
             <h1>Speakers</h1>
-            <!-- <div id="speakers-slides-container">
-                <div class="speakers-slides">
-                    <div id="woody" class="boxes active">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere voluptatibus harum reiciendis nam natus itaque culpa, eaque maiores assumenda consequatur recusandae amet omnis cupiditate numquam perferendis consequuntur repellendus voluptatem dignissimos!</p>
+            <h2><pre><span style="color: #FF5C5C">Expert</span>    <span style="color: #00C49C">Entrepreneurship</span>    <span style="color: #FFCC00">Spotlight</span></pre></h2>
+            <div id="speakers-slides-container">
+                <img class="picture"/>
+                <div class="speakers-content">
+                    <div class="arrows">
+                        <button><img src="images/arrow-left.png"></button>
+                        <span>Name</span>
+                        <button><img src="images/arrow-right.png"></button>
                     </div>
-                    <div id="gress" class="boxes">
-                        <p>The second text eaque maiores assumenda consequatur recusandae amet omnis cupiditate numquam perferendis consequuntur repellendus voluptatem dignissimos!</p>
-                    </div>
-                    <div id="svekis" class="boxes">
-                        <p>The third text. Facere voluptatibus harum reiciendis nam natus itaque culpa, eaque maiores assumenda consequatur recusandae amet omnis cupiditate numquam perferendis consequuntur repellendus voluptatem dignissimos!</p>
-                    </div>
+                    <span class="speaker-description">Description</span>
+                    <span class="speaker-title">Title</span>
                 </div>
-                <div class="buttons-gallery">
-                    <span class="next">&#10095</span>
-                    <span class="prev">&#10094</span>
-                </div>
-            </div> -->
+            </div>
         </div>
 
         <div id="SponsorsSection">
@@ -287,12 +281,16 @@
                     </a>
                 </div>
                 <div class="made">
-                    <p>Made with <img id="end-heart" src="images/heart1.png"> by <img id="end-logo" src="images/white.png"></p>
+                    <p>Made with &nbsp;</p>
+                    <img id="end-heart" src="images/heart1.png">
+                    <p>&nbsp; by &nbsp;</p>
+                    <img id="end-logo" src="images/white.png">
                 </div>
             </div>
         </div>
     </div>
 
     <script src="devFest.js"></script>
+    <script src="speakers-section.js" async></script>
 </body>
 </html>
