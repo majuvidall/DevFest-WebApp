@@ -53,14 +53,14 @@ body{
 #h2{
     font-size: 3vw;
     margin: 0;
-    margin-bottom: 3vh;
+    margin-bottom: 1vw;
 }
 #h1{
     font-family: myFirstFont, sans-serif;
     margin: 0;
     font-size: 5vw;
     color: #FA59D8;
-    margin-bottom: 3vh;
+    margin-bottom: 1vw;
 }
 #h3{
     font-family: myFirstFont, sans-serif;
@@ -68,14 +68,14 @@ body{
     margin: 0;
 }
 #login_button{
-    margin-top: 3vh;
+    margin-top: 1vw;
     border: none;
     background: none;
     padding: 0;
     cursor: pointer;
 }
 #login{
-    height: 6vh;
+    height: 3vw;
     width: auto;
     transition: transform 0.2s;
 }
@@ -91,12 +91,12 @@ body{
     height: auto;
 }
 #WhoSection h1{
-    padding-top: 20vh;
+    padding-top: 10vw;
     font-family: myFirstFont, sans-serif;
     margin: 0;
     font-size: 3vw;
     color: white;
-    margin-bottom: 7vh;
+    margin-bottom: 3vw;
     text-align: center;
 }
 #WhoSection p{
@@ -122,14 +122,14 @@ body{
 }
 #AboutSection{
     height: auto;
-    padding-top: 20vh;
+    padding-top: 10vw;
 }
 #AboutSection h1{
     font-family: myFirstFont, sans-serif;
     margin: 0;
     font-size: 3vw;
     color: white;
-    margin-bottom: 7vh;
+    margin-bottom: 3vw;
     text-align: center;
 }
 .aboutContainer p{
@@ -154,21 +154,21 @@ body{
     height: auto;
 }
 #starss{
-    margin-top: 10vh;
+    margin-top: 5vw;
     width: 100%;
     height: auto;
     margin-bottom: 0vh;
 }
 #TracksSection {
-    padding: 4vh 10vw;
+    padding: 2vw 10vw;
 }
 #TracksSection h2{
-    padding-top: 10vh;
+    padding-top: 5vw;
     font-family: myFirstFont, sans-serif;
     margin: 0;
     font-size: 3vw;
     color: white;
-    margin-bottom: 10vh;
+    margin-bottom: 5vw;
     text-align: center;
 }
 .card-container {
@@ -178,7 +178,7 @@ body{
 }
 .card {
     border-radius: 30px;
-    padding: 3vh;
+    padding: 1.5vw;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -216,16 +216,16 @@ body{
     overflow: hidden;
     position: relative;
     height: auto;
-    padding-top: 20vh;
+    padding-top: 10vw;
     text-align: center;
-    margin-bottom: 10vh;
+    margin-bottom: 3vw;
 }
 #GallerySection h2{
     font-family: myFirstFont, sans-serif;
     margin: 0;
     font-size: 3vw;
     color: white;
-    margin-bottom: 7vh;
+    margin-bottom: 3vw;
     text-align: center;
 }
 .slider-container {
@@ -235,7 +235,7 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    margin-bottom: 20vh;
+    margin-bottom: 10vw;
 }
 .slider {
     display: flex;
@@ -261,13 +261,10 @@ body{
         transform: translateX(-50%);
     }
 }
-
-
-
 #TestimonialsSection{
     position: relative;
     height: auto;
-    padding-top: 20vh;
+    padding-top: 10vw;
     text-align: center;
     padding-bottom: 30vh;
     background-color: #CCCCFF;
@@ -329,7 +326,7 @@ body{
     width: 35vw;
     margin-right: 10vw;
     position: relative;
-    padding: 2vh;
+    padding: 1vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -358,7 +355,7 @@ body{
     object-fit: cover;
     width: 10vw;
     height: auto;
-    max-height: 20vh;
+    max-height: 10vw;
 }
 .together p {
     font-size: 1.2vw;
@@ -395,8 +392,8 @@ body{
     margin: 0;
     font-size: 3vw;
     color: white;
-    padding-top: 10vh;
-    margin-bottom: 7vh;
+    padding-top: 5vw;
+    margin-bottom: 3vw;
     text-align: center;
 }
 #ScheduleSection h2{
@@ -410,14 +407,13 @@ body{
     transform: translateY(-50%);
 }
 
-
 #SponsorsSection h2{
-    padding-top: 10vh;
+    padding-top: 5vw;
     font-family: myFirstFont, sans-serif;
     margin: 0;
     font-size: 3vw;
     color: white;
-    padding-bottom: 9vh;
+    padding-bottom: 4vw;
     text-align: center;
 }   
 #SponsorsSection {
@@ -425,7 +421,7 @@ body{
     text-align: center;
     height: auto;
     padding-top: 0vh;
-    padding-bottom: 20vh;
+    padding-bottom: 10vw;
 }
 #bricksTransition {
     width: 100%;
@@ -435,7 +431,7 @@ body{
     display: flex; 
     justify-content: center;
     gap: 3vw;
-    padding-bottom: 10vh;
+    padding-bottom: 5vw;
 }
 .logos {
     height: 7vw;
@@ -471,8 +467,8 @@ body{
     background-color: #471B9B;
     color: white;
     height: auto;
-    padding-bottom: 10vh;
-    padding-top: 10vh;
+    padding-bottom: 5vw;
+    padding-top: 5vw;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -492,7 +488,7 @@ body{
 #SpeakersSection h1{
     margin: 0;
     font-size: 3vw;
-    padding-bottom: 9vh;
+    padding-bottom: 4vw;
     text-align: center;
     padding: 0;
 }
@@ -565,9 +561,9 @@ body{
     background-color: #471B9B;
     height: auto;
     min-height: 100vh;
-    padding-top: 10vh;
+    padding-top: 5vw;
     margin-bottom: 0px;
-    padding-bottom: 5vh;
+    padding-bottom: 2vw;
 }
 #FAQsSection h1{
     font-family: myFirstFont, sans-serif;
@@ -584,8 +580,8 @@ body{
 }
 .faq{
     width: 100%;
-    margin-top: 2rem;
-    padding-bottom: 0.5rem;
+    margin-top: 2vw;
+    padding-bottom: 0.5vw;
     border-bottom: 3px white solid;
 }
 .question{
@@ -614,7 +610,7 @@ body{
     color: white;
 }
 .faq.active .answer{
-    max-height: 50vh;
+    max-height: 100vh;
     animation: fade 1s ease-in-out;
 }
 .faq.active svg{
@@ -637,7 +633,7 @@ svg{
     margin-top: 0px;
     background-color: #FA59D8;
     height: auto;
-    padding-top: 10vh;
+    padding-top: 5vw;
     text-align: center;
 }
 #OrganizersSection h1{
@@ -647,14 +643,14 @@ svg{
 }
 #StayInTouch{
     height: auto;
-    padding-top: 10vh;
+    padding-top: 5vw;
     text-align: center;
 }
 #StayInTouch h1{
     font-family: myFirstFont, sans-serif;
     font-size: 2.5vw;
     color: white;
-    margin-bottom: 10vh;
+    margin-bottom: 5vw;
 }
 .contact-container{
     height: auto;
@@ -672,7 +668,7 @@ svg{
     display: flex;
     flex-direction: column;
     align-items: start;
-    gap: 2vh;
+    gap: 1vw;
 }
 .contact-left p{
     margin-top: 0px;
@@ -683,7 +679,7 @@ svg{
 }
 .contact-inputs{
     width: 30vw;
-    height: 7vh;
+    height: 3vw;
     border: none;
     outline: none;
     padding-left: 25px;
@@ -707,9 +703,9 @@ svg{
 .contact-left textarea{
     min-width: 30vw;
     max-width: 30vw;
-    min-height: 10vh;
-    max-height: 30vh;
-    height: 30vh;
+    min-height: 5vw;
+    max-height: 15vw;
+    height: 15vw;
     padding-top: 15px;
     border-radius: 5px;
     font-size: 1vw;
@@ -731,8 +727,8 @@ svg{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 1vh;
-    margin-bottom: 5vh;
+    margin-top: 0.5vw;
+    margin-bottom: 3vw;
 }
 .made p{
     margin-top: 0px;

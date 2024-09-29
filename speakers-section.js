@@ -3,7 +3,7 @@ const [left, right] = document.querySelectorAll("#SpeakersSection .arrows button
 const speakers = [
     {
         image: "/images/speakers/buck_woody.png",
-        name: "Buck Woody's",
+        name: "Buck Woody",
         description: "Applied Data Scientist in the Azure Data Services team",
         title: "Generative AI: Concepts, Tools, and Applications for Data Professionals"
     },
