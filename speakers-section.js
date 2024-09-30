@@ -154,6 +154,7 @@ right.addEventListener('click', () => {
 	swapSpeaker();
 });
 
+
 const [ex, ent, spot, work] = document.querySelectorAll('.card');
 
 ex.addEventListener('click', () => {

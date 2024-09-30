@@ -764,6 +764,7 @@ svg {
 	height: 2vw;
 	width: auto;
 }
+<<<<<<< HEAD
 #end-logo {
 	height: 2vw;
 	width: auto;
@@ -913,3 +914,9 @@ svg {
 	.tracks-container {
 	}
 }
+=======
+#end-logo{
+    height: 2vw;
+    width: auto;
+}
+>>>>>>> main
