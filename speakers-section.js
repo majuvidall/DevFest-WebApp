@@ -18,7 +18,37 @@ const speakers = [
         name: "Laurence Svekis",
         description: "Google Developer Expert, a web technology consultant, and an online course developer",
         title: "Power Up (Apps Script & Gemini AI)"
-    }
+    },
+     {
+        image: "images/speakers/laurence_svekis.png",
+        name: "Fabricio Sanchez",
+        description: "Principal Enterprise Architect Lead at Google",
+        title: "Innovating the Future: How the Tech Industry is Evolving"
+    },
+    {
+        image: "images/speakers/laurence_svekis.png",
+        name: "Ludmila Socha",
+        description: "Vice President | Product Owner at JP Morgan",
+        title: "Innovating the Future: How the Tech Industry is Evolving"
+    },
+    {
+        image: "images/speakers/laurence_svekis.png",
+        name: "Emer Scheiner",
+        description: "Global Partners & OEM Manager LATAM at Zebra Technologies",
+        title: "Be Fearless: Overcome Doubts, Unlock Opportunities"
+    },
+    {
+        image: "images/speakers/laurence_svekis.png",
+        name: "David Elgueta",
+        description: "Senior Technical Communicator at Eccentex Corporation | Champion AWS Authorized Instructor",
+        title: "Prompt Engineering: There are no stupid questions"
+    },
+    {
+        image: "images/speakers/laurence_svekis.png",
+        name: "Jeff Ammons",
+        description: "Software Architect at Electronic Arts (EA)",
+        title: "How to Manage your Career as a Software Engineer"
+    },
 ]
 
 let index = 0;
