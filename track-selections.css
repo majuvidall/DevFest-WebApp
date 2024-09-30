@@ -1,0 +1,71 @@
+#expert-block {
+	background-color: transparent;
+	color: #ff5c5c;
+	padding: 10px;
+	border-radius: 8px;
+	transition: all 0.15s ease-in-out;
+}
+
+#expert-block.selected {
+	background-color: #ff5c5c;
+	color: white;
+	padding: 10px;
+	border-radius: 8px;
+	transition: all 0.15s ease-in-out;
+}
+
+#expert-block:hover {
+	background-color: #dbbaba;
+	color: #ff5c5c;
+	padding: 10px;
+	border-radius: 8px;
+	transition: all 0.15s ease-in-out;
+}
+
+#entre-block {
+	background-color: transparent;
+	color: #00c49c;
+	padding: 10px;
+	border-radius: 8px;
+	transition: all 0.15s ease-in-out;
+}
+
+#entre-block.selected {
+	background-color: #00c49c;
+	color: white;
+	padding: 10px;
+	border-radius: 8px;
+	transition: all 0.15s ease-in-out;
+}
+
+#entre-block:hover {
+	background-color: #b2e4e0;
+	color: #00c49c;
+	padding: 10px;
+	border-radius: 8px;
+	transition: all 0.15s ease-in-out;
+}
+
+#spotlight-block {
+	background-color: transparent;
+	color: #ffcc00;
+	padding: 10px;
+	border-radius: 8px;
+	transition: all 0.15s ease-in-out;
+}
+
+#spotlight-block.selected {
+	background-color: #ffcc00;
+	color: white;
+	padding: 10px;
+	border-radius: 8px;
+	transition: all 0.15s ease-in-out;
+}
+
+#spotlight-block:hover {
+	background-color: #e6e6b3;
+	color: #ffcc00;
+	padding: 10px;
+	border-radius: 8px;
+	transition: all 0.15s ease-in-out;
+}
