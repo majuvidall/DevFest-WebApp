@@ -15,10 +15,11 @@ const speakers = [
     },
     {
         image: "images/speakers/laurence_svekis.png",
-        name: "Laurence Svekis",
-        description: "Google Developer Expert, a web technology consultant, and an online course developer",
-        title: "Power Up (Apps Script & Gemini AI)"
-    },
+        name: "Alan Ferrandiz Langley",
+        description: "Co-Founder at Core Analitica",
+        title: "Data-Driven Decision Excellence: Integrating Decision Analysis and
+        Data Analytics"
+      },
      {
         image: "images/speakers/fabricio_sanchez.png",
         name: "Fabricio Sanchez",
@@ -48,7 +49,7 @@ const speakers = [
         name: "Jeff Ammons",
         description: "Software Architect at Electronic Arts (EA)",
         title: "How to Manage your Career as a Software Engineer"
-    },
+    }
 ]
 
 let index = 0;
